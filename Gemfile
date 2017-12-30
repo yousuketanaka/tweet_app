@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.2'
+# gem 'rails', '4.2.2'
+# Use rails from a branch of koic/rails until rails 5.0.2.
+gem 'rails', git: 'https://github.com/koic/rails', branch: 'quiet_unified_integer_warn_on_rails_5_0_1'
 gem 'sqlite3'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
