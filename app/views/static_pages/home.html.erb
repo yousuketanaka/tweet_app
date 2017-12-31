@@ -6,14 +6,15 @@
       <%= render 'shared/user_info' %>
       </section>
  
-	<section class="micropost_form">
-	<!--　ここにフォーム　-->
-	<%= render 'shared/micropost_form' %>
-	</section>
+	    <section class="micropost_form">
+	       <!--　ここにフォーム　-->
+	       <%= render 'shared/micropost_form' %>
+	    </section>
     </aside>
-  <div class="col-md-8">
+    <div class="col-md-8">
       <h3>Feed</h3>
       <!--　ここにフィード　-->
+      <%= render @micropost %>
     </div>
   </div>
 <% else %>
